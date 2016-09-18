@@ -1,0 +1,19 @@
+{
+  "name": "ChopSueyBot",
+  "version": "1.0.0",
+  "description": "Random Chop Suey lyrics.",
+  "main": "chopsueybot.js",
+  "scripts": {
+    "start": "node chopsueybot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Twitter Bot",
+    "Chop Suey"
+  ],
+  "author": "@kikeonline",
+  "license": "",
+  "dependencies": {
+    "twit": "^2.1.1"
+  }
+}
