@@ -16,7 +16,7 @@ var tweet = {
   status: 'Wake Up! ' + randLyrics() + 'little make-up! ' + randLyrics() + ' shake-up! ' + randLyrics() + ' upon the table!.'
 }
 console.log('Tweeting: ' + tweet.status);
-//T.post('statuses/update', tweet, tweeted);
+T.post('statuses/update', tweet, tweeted);
 
 function tweeted(err, data, response) {
   if (err) {
