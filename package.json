@@ -1,6 +1,6 @@
 {
   "name": "ChopSueyBot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Random Chop Suey lyrics.",
   "main": "chopsueybot.js",
   "scripts": {
